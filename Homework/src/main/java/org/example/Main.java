@@ -19,6 +19,4 @@ public class Main {
     private static void Ex4() {
 
     }
-    
-
 }
