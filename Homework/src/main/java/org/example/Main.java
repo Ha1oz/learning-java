@@ -19,5 +19,11 @@ public class Main {
 
         book1.setProductionYear(2010);
         System.out.println(book1.getProductionYear());
+
+        System.out.println(book1.hashCode());
+        System.out.println(author1.hashCode());
+
+        System.out.println(book1.equals(book2));
+        System.out.println(book2.equals(new Book("The Master and Margarita", author2, 2014)));
     }
 }
